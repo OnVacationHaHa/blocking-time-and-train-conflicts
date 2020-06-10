@@ -16,3 +16,12 @@ C:\Users\11413\Desktop\work\2020-5-27\train conflict\git\train conflicts\train c
 C:\Users\11413\Desktop\work\2020-5-27\train conflict\git\train conflicts\train conflicts\obj\Debug\train conflicts.exe
 C:\Users\11413\Desktop\work\2020-5-27\train conflict\git\train conflicts\train conflicts\obj\Debug\train conflicts.pdb
 C:\Users\11413\Desktop\work\2020-5-27\train conflicts\train conflicts\obj\Debug\train conflicts.csprojAssemblyReference.cache
+C:\Users\11413\Desktop\work\2020-5-27\git\train conflicts\train conflicts\bin\Debug\train conflicts.exe
+C:\Users\11413\Desktop\work\2020-5-27\git\train conflicts\train conflicts\bin\Debug\train conflicts.pdb
+C:\Users\11413\Desktop\work\2020-5-27\git\train conflicts\train conflicts\obj\Debug\train conflicts.csprojAssemblyReference.cache
+C:\Users\11413\Desktop\work\2020-5-27\git\train conflicts\train conflicts\obj\Debug\train_conflicts.Form1.resources
+C:\Users\11413\Desktop\work\2020-5-27\git\train conflicts\train conflicts\obj\Debug\train_conflicts.Properties.Resources.resources
+C:\Users\11413\Desktop\work\2020-5-27\git\train conflicts\train conflicts\obj\Debug\train conflicts.csproj.GenerateResource.cache
+C:\Users\11413\Desktop\work\2020-5-27\git\train conflicts\train conflicts\obj\Debug\train conflicts.csproj.CoreCompileInputs.cache
+C:\Users\11413\Desktop\work\2020-5-27\git\train conflicts\train conflicts\obj\Debug\train conflicts.exe
+C:\Users\11413\Desktop\work\2020-5-27\git\train conflicts\train conflicts\obj\Debug\train conflicts.pdb

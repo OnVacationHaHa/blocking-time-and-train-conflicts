@@ -207,7 +207,40 @@ namespace train_conflicts
             SaveCsv(bt_road_link, strpath + "\\blocking_time\\road_link");
             SaveCsv(bt_agent, strpath + "\\blocking_time\\agent");
             SaveCsv(agent_type, strpath + "\\blocking_time\\agent_type");
-
+            node.Merge(bt_node);
+            for (int i = 0; i < bt_road_link.Rows.Count; i++)
+            {
+                bt_road_link.Rows[i][1] = road_link_id++;
+            }
+            road_link.Merge(bt_road_link);
+            for (int i = 0; i < bt_agent.Rows.Count; i++)
+            {
+                bt_agent.Rows[i][0] = agent_id++;
+            }
+            agent.Merge(bt_agent);
+            if (!Directory.Exists(strpath + "\\train_path and blocking_time"))
+                Directory.CreateDirectory(strpath + "\\train_path and blocking_time");
+            SaveCsv(node, strpath + "\\train_path and blocking_time\\node");
+            SaveCsv(road_link, strpath + "\\train_path and blocking_time\\road_link");
+            SaveCsv(agent, strpath + "\\train_path and blocking_time\\agent");
+            SaveCsv(agent_type, strpath + "\\train_path and blocking_time\\agent_type");
+            node.Merge(conf_node);
+            for (int i = 0; i < conf_road_link.Rows.Count; i++)
+            {
+                conf_road_link.Rows[i][1] = road_link_id++;
+            }
+            road_link.Merge(conf_road_link);
+            for (int i = 0; i < conf_agent.Rows.Count; i++)
+            {
+                conf_agent.Rows[i][0] = agent_id++;
+            }
+            agent.Merge(conf_agent);
+            if (!Directory.Exists(strpath + "\\train_path and blocking_time and train_conflicts"))
+                Directory.CreateDirectory(strpath + "\\train_path and blocking_time and train_conflicts");
+            SaveCsv(node, strpath + "\\train_path and blocking_time and train_conflicts\\node");
+            SaveCsv(road_link, strpath + "\\train_path and blocking_time and train_conflicts\\road_link");
+            SaveCsv(agent, strpath + "\\train_path and blocking_time and train_conflicts\\agent");
+            SaveCsv(agent_type, strpath + "\\train_path and blocking_time and train_conflicts\\agent_type");
         }
         private void g_train_node(DataRow dr, int station, int time, int zone_id, int node_type)
         {
